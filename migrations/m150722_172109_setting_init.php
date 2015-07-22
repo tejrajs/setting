@@ -19,8 +19,18 @@ class m150722_172109_setting_init extends Migration
     		'value' => 'TINYTEXT NOT NULL',
     		'desc' => 'TINYTEXT NOT NULL',
     	], $tableOptions);
+   		
+   		$this->execute($this->getUserSql());
     }
-
+	
+    public function getUserSql(){
+    	return "INSERT INTO {{%setting}} (`category`, `name`, `value`, `desc`) VALUES
+				('email', 'email_host', 'smtp.gmail.com', 'Email Host'),
+				('email', 'email_username', 'email@email.com', 'Email Username'),
+				('email', 'email_password', '******', 'Email Password'),
+				('email', 'email_port', '587', 'Email Port')
+    	";
+    }
     public function down()
     {
         $this->dropTable('{{%setting}}');

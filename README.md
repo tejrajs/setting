@@ -49,3 +49,12 @@ yii migrate --migrationPath=@tejrajs/setting/migrations
 
 ### Access Url
 1. backend : http://you-domain/backend/web/setting
+
+### To Use Mail In common/config/main.php
+
+```php
+'components' => [
+	'mail' => 'tejrajs\setting\components\Email',
+],
+```
+```
