@@ -14,6 +14,7 @@ class m150722_172109_setting_init extends Migration
     	}
    		$this->createTable('{{%setting}}', [
     		'id' => Schema::TYPE_PK,
+   			'category' => 'VARCHAR(150) NOT NULL',
     		'name' => 'VARCHAR(250) NOT NULL',
     		'value' => 'TINYTEXT NOT NULL',
     		'desc' => 'TINYTEXT NOT NULL',

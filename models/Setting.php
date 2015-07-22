@@ -30,7 +30,8 @@ class Setting extends \yii\db\ActiveRecord
         return [
             [['name', 'value', 'desc'], 'required'],
             [['value', 'desc'], 'string'],
-            [['name'], 'string', 'max' => 250]
+            [['name'], 'string', 'max' => 250],
+        	[['category'], 'string', 'max' => 250]
         ];
     }
 
@@ -41,6 +42,7 @@ class Setting extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
+        	'category' => 'Category',	
             'name' => 'Name',
             'value' => 'Value',
             'desc' => 'Desc',
