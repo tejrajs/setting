@@ -1,21 +1,20 @@
 {
     "name": "tejrajs/setting",
-    "version": "dev-master",
     "description": "Yii2 Framework Basic Setting - Development package",
     "keywords": ["setting"],
-    "homepage": "http://easyiicms.com",
+    "homepage": "https://github.com/tejrajs/setting/blob/master/README.md",
     "type": "yii2-extension",
     "license": "GNU GPL V3",
     "minimum-stability": "dev",
     "support": {
-        "wiki": "http://easyiicms.com/docs",
-        "source": "https://github.com/noumo/easyii.git",
-        "issues": "https://github.com/noumo/easyii/issues"
+        "wiki": "https://github.com/tejrajs/setting/blob/master/README.md",
+        "source": "https://github.com/tejrajs/setting.git",
+        "issues": "https://github.com/tejrajs/setting/issues"
     },
     "authors": [
         {
-            "name": "Ivan Vasilkov",
-            "email": "noumohope@gmail.com",
+            "name": "Tej Raj Shrestha",
+            "email": "helloteju96@gmail.com",
             "role" : "Developer"
         }
     ],
@@ -23,22 +22,11 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*",
-        "creocoder/yii2-nested-sets": "0.9.*",
-        "bower-asset/fancybox": "*",
-        "bower-asset/jquery.switcher": "*",
-        "bower-asset/eonasdan-bootstrap-datetimepicker": "^4.7@dev",
-        "2amigos/yii2-selectize-widget": "~1.0"
+        "yiisoft/yii2-swiftmailer": "*"
     },
     "autoload": {
         "psr-4": {
-            "yii\\easyii\\": "/"
+            "tejrajs\\setting\\": ""
         }
     },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
-        }
-    }
 }
