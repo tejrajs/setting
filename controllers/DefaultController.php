@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\setting\controllers;
+namespace tejrajs\setting\controllers;
 
 use yii\web\Controller;
 

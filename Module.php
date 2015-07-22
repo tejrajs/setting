@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\setting;
+namespace tejrajs\setting;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'app\modules\setting\controllers';
+    public $controllerNamespace = 'tejrajs\setting\controllers';
 
     public function init()
     {

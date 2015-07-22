@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\setting\models;
+namespace tejrajs\setting\models;
 
 use Yii;
 

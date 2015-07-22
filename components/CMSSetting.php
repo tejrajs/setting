@@ -1,5 +1,5 @@
 <?php
-namespace app\modules\setting\components;
+namespace tejrajs\setting\components;
 
 
 use Yii;
