@@ -35,7 +35,7 @@ Migration run
 yii migrate --migrationPath=@tejrajs/setting/migrations
 ```
 
-### Config frontend modules in frontend/config/main.php
+### Config frontend modules in backend/config/main.php
 
 ```php
     //'defaultRoute' => 'setting', //set setting as default route optional
