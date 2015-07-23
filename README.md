@@ -1,6 +1,6 @@
 Setting
 =======
-Yii2 Framework Basic Setting - Development package
+Yii2 Framework Dynamic Setting - Development package
 
 Installation
 ------------
