@@ -4,6 +4,7 @@ use kartik\form\ActiveForm;
 ?>
 
 <h3>Configuration Email Setting</h3>
+<hr>
 <?php $form = ActiveForm::begin([
 	'type' => ActiveForm::TYPE_HORIZONTAL,
 	'action' => ['default/save-email']
