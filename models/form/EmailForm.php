@@ -82,7 +82,8 @@ class EmailForm extends Model{
 				$hostModel->value = $this->port;
 				$hostModel->save();
 			}
+			return true;
 		}
-		return null;
+		return false;
 	}
 }
