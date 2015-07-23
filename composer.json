@@ -1,6 +1,6 @@
 {
     "name": "tejrajs/setting",
-    "description": "Yii2 Framework Basic Setting - Development package",
+    "description": "Yii2 Framework Dynamic Setting - Development package",
     "keywords": ["setting"],
     "homepage": "https://github.com/tejrajs/setting/blob/master/README.md",
     "type": "yii2-extension",
